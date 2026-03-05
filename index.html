@@ -3,67 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jörn Stengel - Alltags- & Gartenhilfe Hungen</title>
+    <title>Dein Alltags-Ass | Jörn Stengel</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; background-color: #f9fbf9; }
-        header { background-color: #2d5a27; color: white; padding: 2rem text-align: center; }
-        .container { max-width: 800px; margin: auto; padding: 20px; }
-        .hero { text-align: center; padding: 40px 20px; background-color: #eaf2ea; border-bottom: 5px solid #2d5a27; }
-        h1 { color: #2d5a27; }
-        .services { display: flex; flex-wrap: wrap; justify-content: space-around; margin-top: 30px; }
-        .service-card { background: white; border: 1px solid #ddd; border-radius: 8px; width: 45%; margin-bottom: 20px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .service-card h3 { color: #2d5a27; margin-top: 0; }
-        .contact-box { background: #2d5a27; color: white; padding: 30px; border-radius: 8px; text-align: center; margin-top: 30px; }
-        .btn { display: inline-block; background: #ff7f50; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; }
-        .footer { text-align: center; font-size: 0.8rem; padding: 20px; color: #777; }
-        a { color: white; text-decoration: underline; }
+        /* Modernes & sauberes Design */
+        body { 
+            font-family: 'Segoe UI', Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+            background-color: #f0f4f0; 
+            text-align: center;
+        }
+
+        header { 
+            background-color: #2d5a27; 
+            color: white; 
+            padding: 40px 20px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 { margin: 0; font-size: 2.2rem; text-transform: uppercase; }
+        .subtitle { font-size: 1.1rem; opacity: 0.9; margin-top: 5px; }
+
+        .container { 
+            max-width: 650px; 
+            margin: auto; 
+            padding: 20px; 
+        }
+
+        /* Dein Flyer-Bild */
+        .flyer-box {
+            margin-top: -30px;
+            margin-bottom: 30px;
+        }
+
+        .flyer-img { 
+            width: 100%; 
+            max-width: 500px; 
+            border-radius: 15px; 
+            box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+            border: 5px solid white;
+        }
+
+        /* Info-Bereiche */
+        .card { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 20px; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05); 
+            margin-bottom: 25px; 
+        }
+
+        .price { 
+            font-size: 2rem; 
+            color: #2d5a27; 
+            font-weight: bold; 
+            margin: 10px 0;
+        }
+
+        /* Der Anruf-Button */
+        .btn { 
+            display: inline-block; 
+            background-color: #ff7f50; 
+            color: white; 
+            padding: 20px 40px; 
+            border-radius: 50px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 1.3rem; 
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(255, 127, 80, 0.4);
+            transition: transform 0.2s;
+        }
+        .btn:active { transform: scale(0.95); }
+
+        .contact-info {
+            background-color: #2d5a27;
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: left;
+        }
+
+        .contact-info a { color: #ff7f50; text-decoration: none; font-weight: bold; }
+
+        footer { 
+            padding: 40px 20px; 
+            font-size: 0.85rem; 
+            color: #666; 
+        }
+
+        .highlight { color: #2d5a27; font-weight: bold; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Helfende Hände für Alltag & Garten</h1>
-    <p>Zuverlässig • Pünktlich • Regional in Hungen & Umgebung</p>
+    <h1>Dein Alltags-Ass</h1>
+    <div class="subtitle">Tatkräftige Hilfe in Hungen & Umgebung</div>
 </header>
 
-<div class="hero">
-    <h2>Brauchen Sie Unterstützung?</h2>
-    <p>Ich nehme Ihnen die Arbeit ab, damit Sie mehr Zeit für die wichtigen Dinge haben.</p>
-    <a href="mailto:stengel.joernneu@gmail.com" class="btn">Jetzt Termin anfragen</a>
-</div>
-
 <div class="container">
-    <div class="services">
-        <div class="service-card">
-            <h3>🌿 Gartenhilfe</h3>
-            <p>Rasenmähen, Unkraut entfernen, Hecken- & Gehölzschnitt (mit Ihren Geräten).</p>
-        </div>
-        <div class="service-card">
-            <h3>🏠 Haushalt</h3>
-            <p>Wohnungsreinigung, Ordnung im Alltag, Fenster putzen.</p>
-        </div>
-        <div class="service-card">
-            <h3>🛒 Einkauf & Botengänge</h3>
-            <p>Wocheneinkäufe erledigen, Apothekenwege, sonstige Besorgungen.</p>
-        </div>
-        <div class="service-card">
-            <h3>🤝 Begleitung</h3>
-            <p>Spaziergänge, Gesellschaft & Gespräch, Begleitung zu Terminen.</p>
-        </div>
+    
+    <div class="flyer-box">
+        <img src="1000163938.png" alt="Dein Alltags-Ass Flyer" class="flyer-img">
     </div>
 
-    <div class="contact-box">
-        <h2>Direktkontakt</h2>
-        <p><strong>Name:</strong> Jörn Stengel</p>
-        <p><strong>Telefon:</strong> <a href="tel:+4915562549028">015562549028</a></p>
-        <p><strong>E-Mail:</strong> <a href="mailto:stengel.joernneu@gmail.com">stengel.joernneu@gmail.com</a></p>
-        <p><strong>Preis:</strong> 22,50 € / Stunde (keine MwSt. gem. § 19 UStG)</p>
+    <div class="card">
+        <h2>Mein Angebot für Sie</h2>
+        <p>Ich unterstütze Sie zuverlässig bei:</p>
+        <ul style="text-align: left; display: inline-block; margin-bottom: 20px;">
+            <li>🌿 <strong>Gartenarbeiten</strong> (Mähen, Heckenschnitt)</li>
+            <li>🧹 <strong>Haushaltshilfe</strong> & Reinigung</li>
+            <li>🛒 <strong>Einkäufen</strong> & Besorgungen</li>
+            <li>🤝 <strong>Begleitung</strong> im Alltag</li>
+        </ul>
+        
+        <div class="price">22,50 € / Std.</div>
+        <p class="highlight">Keine Anfahrtskosten innerhalb von Hungen!</p>
+        
+        <a href="tel:+4915562549028" class="btn">Jetzt anrufen</a>
     </div>
-</div>
 
-<div class="footer">
-    <p>&copy; 2026 Jörn Stengel - Ahornweg 8, 35410 Hungen</p>
-    <p>Impressum & Datenschutz</p>
+    <div class="contact-info">
+        <h3 style="margin-top: 0;">Kontakt & Impressum</h3>
+        <p><strong>Jörn Stengel</strong></p>
+        <p>📍 Ahornweg 8, 35410 Hungen</p>
+        <p>📞 Telefon: <a href="tel:+4915562549028">0155 62549028</a></p>
+        <p>📧 E-Mail: <a href="mailto:stengel.joernneu@gmail.com">stengel.joernneu@gmail.com</a></p>
+        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 20px 0;">
+        <p style="font-size: 0.8rem; opacity: 0.8;">Gemäß § 19 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmerstatus).</p>
+    </div>
+
+    <footer>
+        &copy; 2026 Dein Alltags-Ass - Jörn Stengel
+    </footer>
 </div>
 
 </body>
